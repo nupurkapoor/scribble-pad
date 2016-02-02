@@ -1,6 +1,7 @@
 # Scribble-Pad
 
-Simple application to scribble your thoughts and preserve them with a time stamp written with Ember 2.0 and Firebase.
+Simple application to scribble your thoughts and preserve them with a time stamp.
+Built with Ember-2.0, Ember-cli, Ember-data & Firebase and a lot of debugging!
 The application is structured focusing on features rather than controllers.
 
 ## Prerequisites
