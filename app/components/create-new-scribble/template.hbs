@@ -2,12 +2,12 @@
 
 <form>
   <p>
-    {{input value=scribble.title placeholder="Title*" class="form-control"}}
+    {{input value=scribble.title placeholder="Title" class="form-control"}}
   </p>
   <p>
-    {{textarea value=scribble.text placeholder="Content*" cols="60" rows="6" class="scribble-content form-control"}}
+    {{textarea value=scribble.text placeholder="Content" cols="60" rows="6" class="scribble-content form-control"}}
   </p>
-  <p>{{input value=scribble.author placeholder="Author*" class="scribble-author form-control"}}</p>
+  <p>{{input value=scribble.author placeholder="Author" class="scribble-author form-control"}}</p>
   <p>
     <span {{action "createPost" scribble}} class="btn btn-submit">Publish</span>
   </p>
