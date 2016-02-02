@@ -1,0 +1,61 @@
+body {
+  width: 80%;
+  margin: 1em auto;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  background: url('background.png');
+}
+
+.container {
+  float: left;
+  width: 60%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+header {
+  background-color: #5DCADA;
+  color: #fff;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+.form-control input {
+  top: 2px;
+}
+
+.article input {
+  top: 2px;
+}
+
+.scribble-title {
+  top: 2px;
+  color: #77962B;
+  font-weight: bold;
+}
+
+.btn {
+  padding: .5em 2em;
+  border-radius: 3px;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #c0392b; 2AA28D
+}
+
+.btn-submit {
+  background-color: #c0392b; 
+  color: #fff;
+}
+
+
+
