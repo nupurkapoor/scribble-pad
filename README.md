@@ -20,6 +20,6 @@ The application is structured focusing on features rather than controllers.
 
 #### Description
 The application is an inspiration from the classic todo-mvc application. Uses Firebase as its data base. 
-
+Can be accessed at: https://scribble-pad.firebaseapp.com/
 
 
