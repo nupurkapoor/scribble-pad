@@ -1,0 +1,14 @@
+{{!-- Index page. This is the default hit point of the application, home page --}}
+
+<div>{{create-new-scribble scribble=model.scribble createScribble="createScribble"}}</div>
+
+<section>
+	<div class="container">
+		<h2>Scribble Pad Listings</h2>	
+		{{#each model.data as |scribble|}}
+			{{scribble-pad scribble=scribble}}
+		{{else}}
+			Uh Oh!  You don't have any scribbles yet! 
+		{{/each}}
+	</div>
+</section>
